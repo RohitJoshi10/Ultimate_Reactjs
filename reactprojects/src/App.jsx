@@ -1,8 +1,9 @@
+import Counter from "./1_Counter/Counter";
+
 function App() {
-  const username = "Rohit";
   return (
     <>
-      <h1>Hello Projects {username} </h1>
+      <Counter />
     </>
   );
 }
