@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    gap: 36px;
+    background: #000;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 23px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
