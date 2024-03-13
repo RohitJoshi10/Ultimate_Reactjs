@@ -4,6 +4,9 @@ import UseStateHook from "./Hooks/UseStateHook/UseStateHook";
 import Props from "./Props/Props";
 import UseEffectHook from "./Hooks/UseEffectHook/UseEffectHook";
 import UseRefHook from "./Hooks/UseRefHook/UseRefHook";
+import UseContextHook from "./Hooks/UseContextHook/UseContextHook";
+import Parent from "./PropsDrilling/Parent";
+import UseMemoHook from "./Hooks/UseMemoHook/UseMemoHook";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       {/* <Props /> */}
       {/* <UseEffectHook /> */}
       {/* <UseRefHook /> */}
+      {/* <UseContextHook /> */}
+      {/* <Parent /> */}
+      <UseMemoHook />
     </div>
   );
 }
