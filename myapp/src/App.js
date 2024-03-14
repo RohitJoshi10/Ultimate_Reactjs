@@ -7,6 +7,7 @@ import UseRefHook from "./Hooks/UseRefHook/UseRefHook";
 import UseContextHook from "./Hooks/UseContextHook/UseContextHook";
 import Parent from "./PropsDrilling/Parent";
 import UseMemoHook from "./Hooks/UseMemoHook/UseMemoHook";
+import UseCallbackHook from "./Hooks/UseCallbackHook/UseCallbackHook";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <UseRefHook /> */}
       {/* <UseContextHook /> */}
       {/* <Parent /> */}
-      <UseMemoHook />
+      {/* <UseMemoHook /> */}
+      <UseCallbackHook />
     </div>
   );
 }
